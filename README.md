@@ -14,5 +14,5 @@
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="" integrity="" crossorigin="">
 ```````
 before use this please refer the above link in [bootstrap.com](https://getbootstrap.com/)
-* The code, in folder `Resume` file  with `Output` as in PNG format.
+* The code, in folder `Resume` folder > `index.html` file  with `Output` as in PNG format.
 ---
