@@ -1,0 +1,86 @@
+body {
+    width: 100%;
+    padding: 0;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    padding: 20px;
+}
+h2,h6{
+    color:black !important;
+}
+
+.header {
+    text-align: center;
+    color: dodgerblue;
+}
+
+.contacts a {
+    display:inline-flex;
+    margin-right: 20px;
+    margin-top: 20px;
+    color:black;
+    size: 2em;
+    padding:0px
+}
+a:hover{
+    color:rgb(186, 155, 17);
+    transition: transform 0.3s ease; 
+    transform: rotate(360deg); 
+}
+
+.row {
+    display: grid;
+}
+
+img.img-fluid {
+    max-width: 100%;
+    height: auto;
+    border: 2px solid #ddd;
+    border-color: rgb(244, 238, 238);
+    border-radius: 50%;
+}
+
+.img-fluid.rounded-circle {
+    box-shadow: 0 0 80px rgba(0, 0, 10, 25);   
+}
+.img-fluid.rounded-circle:hover {
+    transition: transform 0.3s ease; 
+    transform: rotate(360deg); 
+}
+.sidebar {
+    background-color: #94b51c;
+    padding: 20px;
+}
+.exper{
+margin-top: 20px;
+}
+
+.main {
+    padding: 20px;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.table, th, td {
+    border: 1px solid #ddd;
+    
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+.declar {
+    margin-top: 20px;
+}
+
+/* Add more styles as needed */
